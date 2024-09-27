@@ -51,7 +51,7 @@ El dataset utilizado para entrenar el modelo está compuesto por cuentos infanti
    - Codificar el texto completo como una secuencia de enteros para que el modelo LSTM pueda procesarlo.
 
 ### 2. **Entrenamiento del Modelo**
-   El archivo **`Entrenamiento_GeneradordeCuentos_AdrianaMartinez.ipynb`** contiene el código para entrenar el modelo LSTM. El modelo es entrenado utilizando diferentes cantidades de épocas (1, 60 y 150), y los resultados se guardan en la carpeta `models/`. El entrenamiento incluye:
+   El archivo **`Entrenamiento_GeneradordeCuentos_AdrianaMartinez.ipynb`** contiene el código para entrenar el modelo LSTM. El modelo es entrenado utilizando diferentes cantidades de épocas (1, 10, 60, 150 y 180), y los resultados se guardan en la carpeta `models/`. El entrenamiento incluye:
    - Definición de un modelo LSTM con dos capas ocultas y 512 unidades en cada capa.
    - Uso del optimizador **Adam** y la función de pérdida **CrossEntropyLoss**.
    - Generación de modelos entrenados en diferentes etapas del entrenamiento, los cuales pueden ser utilizados para generar texto posteriormente.
