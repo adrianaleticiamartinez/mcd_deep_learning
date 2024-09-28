@@ -12,7 +12,7 @@ Este proyecto implementa un modelo de **Red Neuronal Recurrente** (RNN) utilizan
 Este repositorio contiene los siguientes archivos y carpetas:
 
 ### 1. **Notebooks**
-   - **`CharsParaCuentos_AdrianaMartinez.ipynb`**: Notebook que contiene el código para el preprocesamiento del texto. Convierte el corpus de cuentos infantiles en un conjunto de caracteres únicos y genera los diccionarios necesarios para codificar el texto.
+   - [**`CharsParaCuentos_AdrianaMartinez.ipynb`**](mcd_deep_learning/CharsParaCuentos_AdrianaMartinez.ipynb): Notebook que contiene el código para el preprocesamiento del texto. Convierte el corpus de cuentos infantiles en un conjunto de caracteres únicos y genera los diccionarios necesarios para codificar el texto.
    - **`Entrenamiento_GeneradordeCuentos_AdrianaMartinez.ipynb`**: Notebook para el entrenamiento del modelo LSTM. Entrena el modelo en el corpus procesado y genera versiones del modelo entrenado con diferentes números de épocas.
    - **`GeneradorDeCuentos_AdrianaMartinez.ipynb`**: Notebook para generar nuevos cuentos. Carga los modelos entrenados y permite generar secuencias de texto a partir de una secuencia inicial.
 
