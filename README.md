@@ -90,4 +90,4 @@ Si deseas contribuir a este proyecto, eres bienvenid@. Puedes realizar un fork d
 
 ## Licencia
 
-Este proyecto se distribuye bajo la licencia MIT. Para más detalles, consulta el archivo `LICENSE`.
+Este proyecto se distribuye bajo la licencia MIT. Para más detalles, consulta el archivo [`LICENSE`](LICENSE).
