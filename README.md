@@ -12,25 +12,25 @@ Este proyecto implementa un modelo de **Red Neuronal Recurrente** (RNN) utilizan
 Este repositorio contiene los siguientes archivos y carpetas:
 
 ### 1. **Notebooks**
-   - [**`CharsParaCuentos_AdrianaMartinez.ipynb`**](mcd_deep_learning/CharsParaCuentos_AdrianaMartinez.ipynb): Notebook que contiene el código para el preprocesamiento del texto. Convierte el corpus de cuentos infantiles en un conjunto de caracteres únicos y genera los diccionarios necesarios para codificar el texto.
-   - **`Entrenamiento_GeneradordeCuentos_AdrianaMartinez.ipynb`**: Notebook para el entrenamiento del modelo LSTM. Entrena el modelo en el corpus procesado y genera versiones del modelo entrenado con diferentes números de épocas.
-   - **`GeneradorDeCuentos_AdrianaMartinez.ipynb`**: Notebook para generar nuevos cuentos. Carga los modelos entrenados y permite generar secuencias de texto a partir de una secuencia inicial.
+   - [**`CharsParaCuentos_AdrianaMartinez.ipynb`**](CharsParaCuentos_AdrianaMartinez.ipynb): Notebook que contiene el código para el preprocesamiento del texto. Convierte el corpus de cuentos infantiles en un conjunto de caracteres únicos y genera los diccionarios necesarios para codificar el texto.
+   - [**`Entrenamiento_GeneradordeCuentos_AdrianaMartinez.ipynb`**](Entrenamiento_GeneradordeCuentos_AdrianaMartinez.ipynb): Notebook para el entrenamiento del modelo LSTM. Entrena el modelo en el corpus procesado y genera versiones del modelo entrenado con diferentes números de épocas.
+   - [**`GeneradorDeCuentos_AdrianaMartinez.ipynb`**](GeneradorDeCuentos_AdrianaMartinez.ipynb): Notebook para generar nuevos cuentos. Carga los modelos entrenados y permite generar secuencias de texto a partir de una secuencia inicial.
 
 ### 2. **Cuentos de Entrenamiento**
-   - **`cleaned_merged_fairy_tales_without_eos.txt`**: Archivo que contiene el corpus de cuentos infantiles utilizados para entrenar el modelo. Estos cuentos son de dominio público y fueron limpiados previamente para ser adecuados para el entrenamiento.
+   - [**`cleaned_merged_fairy_tales_without_eos.txt`**](cleaned_merged_fairy_tales_without_eos.txt): Archivo que contiene el corpus de cuentos infantiles utilizados para entrenar el modelo. Estos cuentos son de dominio público y fueron limpiados previamente para ser adecuados para el entrenamiento.
 
-### 3. **Carpeta `chars/`**: Contiene los archivos generados durante el preprocesamiento del texto:
+### 3. **Carpeta [`chars/`](chars)**: Contiene los archivos generados durante el preprocesamiento del texto:
    - **`chars60.pkl`**: Archivo que contiene el conjunto de caracteres únicos extraídos del texto.
    - **`char2int60.pkl`**: Diccionario que mapea cada carácter a un número entero.
    - **`int2char60.pkl`**: Diccionario que mapea números enteros a caracteres.
    - **`encoded60.pkl`**: Archivo omitido debido a su tamaño, que contiene el texto codificado como una secuencia de enteros.
 
-### 4. **Carpeta `models/`**: Contiene los modelos LSTM entrenados exportados en formato `.pth` para diferentes números de épocas:
+### 4. **Carpeta [`models/`](models)**: Contiene los modelos LSTM entrenados exportados en formato `.pth` para diferentes números de épocas:
    - **`lstm_cuentos_infantiles_1epoch.pth`**: Modelo entrenado durante 1 época.
    - **`lstm_cuentos_infantiles_60epoch.pth`**: Modelo entrenado durante 60 épocas.
    - **`lstm_cuentos_infantiles_150epoch.pth`**: Modelo entrenado durante 150 épocas.
 
-### 5. **`requirements.txt`**: Archivo que contiene las dependencias necesarias para ejecutar los notebooks. Incluye librerías como PyTorch, NumPy y Matplotlib.
+### 5. **[`requirements.txt`](requirements.txt)**: Archivo que contiene las dependencias necesarias para ejecutar los notebooks. Incluye librerías como PyTorch, NumPy y Matplotlib.
 
 ## Dataset: Cuentos Infantiles
 
@@ -86,7 +86,7 @@ pip install -r requirements.txt
 
 ## Contribuciones
 
-Si deseas contribuir a este proyecto, eres bienvenido/a. Puedes realizar un fork del repositorio y enviar tus propuestas a través de **pull requests**.
+Si deseas contribuir a este proyecto, eres bienvenid@. Puedes realizar un fork del repositorio y enviar tus propuestas a través de **pull requests**.
 
 ## Licencia
 
